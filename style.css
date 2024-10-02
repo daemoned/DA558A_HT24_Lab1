@@ -8,8 +8,14 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #0f0f0f;
     font-family: Barlow;
+    background-image: url(winzent.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
 }
 
 h1, h2 {
@@ -18,8 +24,28 @@ h1, h2 {
 
 h1 {
     font-size: 72px;
+    letter-spacing: 1rem;
+    color: #f1f1f1;
+    margin: 0px 0px 0px 0px;
 }
 
 h2 {
     font-size: 32px;
+    letter-spacing: 0.2rem;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.box {
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .5);
 }
