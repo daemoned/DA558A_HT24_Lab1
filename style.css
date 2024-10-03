@@ -92,3 +92,28 @@ h2 {
     margin-top: 50px;
     border: 2px solid #f1f1f1;
 }
+
+
+#contact input {
+    width: 50%;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    border: 2px solid #f1f1f1;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#contact textarea {
+    width: 50%;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    border: 2px solid #f1f1f1;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#contact input:focus {
+    width: 50%;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    border: 2px dotted #f1f1f1;
+    background-color: rgba(0, 0, 0, .5);
+}
